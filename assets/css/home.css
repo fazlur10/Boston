@@ -1,0 +1,266 @@
+body {
+	font-family: "Gabarito", sans-serif;
+	height: 200vh;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Gabarito", sans-serif;
+	font-weight: 700; /* Bold version of the font */
+}
+
+p {
+	font-family: "Gabarito", sans-serif;
+	font-weight: 400; /* Normal weight of the font */
+	color: #0a0b0d;
+}
+
+
+
+#mainCarousal {
+	background-image: url(../images/carousal-bg.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100vh;
+	min-height: 800px;
+}
+
+.carousal-overlay {
+	position: absolute;
+	width: 50vw;
+	top: 15%;
+	left: 5%;
+	color: #ffffff;
+	z-index: 99;
+}
+
+.carousal-overlay h1 {
+	color: #ffffff;
+	font-size: 80px;
+	line-height: 85px;
+}
+
+#overlay-carousal {
+	max-height: 40%;
+}
+
+#overlay-carousal .carousel-item img {
+	width: 100%;
+	height: 100%;
+}
+
+#overlay-carousal .carousel-inner {
+	background-color: #ffffff;
+	padding: 25px;
+	width: 65%;
+	height: 55%;
+}
+
+.carousal-bottom-text {
+	position: absolute;
+	right: 10%;
+	bottom: -25px;
+	left: 10px;
+	color: #0d443b;
+}
+
+.carousal-bottom-text p {
+	margin-bottom: 0;
+}
+.overlay-carousel-control-prev {
+	right: 30px;
+}
+
+.overlay-carousel-control-next {
+	right: 0;
+}
+.overlay-carousel-control-next,
+.overlay-carousel-control-prev {
+	position: absolute;
+	bottom: 2px;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15%;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	background: 0 0;
+	border: 0;
+	opacity: 1;
+	transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-size: 100% 100%;
+	background-color: #0d443b;
+}
+
+.abt-us-btn,
+.services-btn {
+	background-color: #d2ab67;
+	color: #40341e;
+	border-radius: 4px;
+	border: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	min-width: 100px;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+
+.appointment-section {
+	background-color: #92d3cd;
+}
+
+.appointment-bg {
+	background-image: url(../images/h1-img-4.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 600px;
+}
+
+.appointment-row{
+	--bs-gutter-x: 0rem;
+	min-height: 600px;
+	align-items: center;
+}
+
+.custom-input{
+	height:3rem;
+}
+
+.btn-form{
+	background-color: #0d443b;
+	color: #ffffff;
+	border-radius: 4px;
+	border: none;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 25px;
+	margin-left: 16px;
+	min-width: 100px;
+	padding: 15px 25px;
+	text-decoration: none;
+}
+.appointment-container{
+	padding-left: 5rem;
+	padding-right: 5rem;
+}
+
+.parallax-section {
+	background-image: url(../images/h1-img-5.jpg); /* Replace with your own image URL */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	height: 80vh;
+	color: #fff;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+	position: relative;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+/* Content overlay styling */
+.overlay-text {
+	padding: 40px;
+	border-radius: 8px;
+}
+
+.contact-icon{
+	display: inline-flex;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+	margin-right: 10px;
+}
+
+/* Custom styles for less than 1400px screen */
+@media (max-width: 1400px) {
+	.carousal-overlay {
+		width: 65vw;
+		top: 20%;
+		left: 10%;
+	}
+	.carousal-overlay h1 {
+		color: #ffffff;
+		font-size: 50px;
+	}
+}
+/* Custom styles for less than 1200px screen */
+@media (max-width: 1200px) {
+	.carousal-overlay {
+		width: 80vw;
+		top: 20%;
+		left: 10%;
+	}
+	.carousal-overlay h1 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.appointment-container{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+/* Custom styles for less than 992px screen */
+@media (max-width: 991px) {
+	
+
+	#overlay-carousal .carousel-inner {
+		background-color: #ffffff;
+		padding: 25px;
+		width: 75%;
+		height: 55%;
+	}
+	.appointment-container{
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+}
+/* Custom styles for mobile */
+@media (max-width: 768px) {
+	.carousal-overlay {
+		width: 100%;
+		top: 20%;
+		left: 0;
+		padding: 20px;
+	}
+
+	#overlay-carousal .carousel-inner {
+		background-color: #ffffff;
+		padding: 25px;
+		width: 100%;
+		height: 55%;
+	}
+
+	.appointment-container{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+
+/* Custom styles for desktop */
+@media (min-width: 768px) {
+	.navbar-collapse {
+		justify-content: center;
+	}
+
+	.book-appointment-mobile-btn {
+		display: none;
+	}
+}
