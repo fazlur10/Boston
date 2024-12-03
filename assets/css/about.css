@@ -1,0 +1,96 @@
+.main-banner {
+	background-color: #a6a6a6; /* Light gray background */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 400px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	height: 60vh;
+	margin-bottom: 300px;
+}
+
+.branding-text {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.image-container img {
+	max-width: 100%;
+	border-radius: 5px;
+	max-height: 600px;
+}
+
+.service-item {
+	padding: 20px;
+	transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.services-section .icon img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.service-title {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.service-description {
+	font-size: 14px;
+	color: #6c757d;
+}
+
+.who-we-are {
+	background-color: #eef5fc; /* Light blue background */
+}
+
+.who-we-are .text-primary {
+	color: #0056b3; /* Custom primary color */
+}
+
+.who-we-are h2 {
+	font-weight: bold;
+}
+
+.who-we-are p {
+	font-size: 16px;
+	line-height: 1.8;
+}
+
+.our-team-image-container{
+    display: flex;
+    justify-content: center;
+}
+
+.image-grid{
+    background-color: #66a89e;
+}
+
+@media (max-width: 991px) {
+	.image-container img {
+		max-width: 90%;
+	}
+	.main-banner {
+		padding-top: 300px;
+		height: 50vh;
+	}
+}
+
+@media (max-width: 768px) {
+	.main-banner {
+		padding-top: 200px;
+		height: 40vh;
+		margin-bottom: 150px;
+	}
+}

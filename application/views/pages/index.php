@@ -12,8 +12,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/nav.css'); ?>">
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/general.css'); ?>">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/home.css'); ?>">
-    
+
 
   </head>
 
@@ -39,47 +40,8 @@
       </div>
     </div> -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <!-- Logo on the left -->
-        <a class="navbar-brand" href="#">
-          <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="Logo">
-        </a>
+    <?php $this->load->view('pages/partial/nav'); ?>
 
-        <!-- Navbar toggler icon (visible on mobile) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links (centered in desktop, collapsed in mobile) -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Doctors</a>
-            </li>
-            <!-- "Book Appointment" will appear here in mobile view -->
-            <li class="nav-item">
-              <a class="nav-link book-appointment-mobile-btn" href="#">Book Appointment</a>
-            </li>
-          </ul>
-        </div>
-
-        <!-- Book Appointment button only visible in desktop view -->
-        <div class="top-nav-button">
-          <button class="ms-auto book-appointment-desktop-btn">Book Appointment</button>
-        </div>
-      </div>
-    </nav>
     <div class="carousal-overlay">
       <h1> Boston Medical Care Clinic for Dentist, Derma, and Laser</h1>
       <div id="overlay-carousal" class="carousel slide">
@@ -199,7 +161,7 @@
             <div class="col-12">
               <textarea name="inputMessage" class="form-control" rows="3" placeholder="Message"
                 id="inputMessage"></textarea>
-                <label class="input-error" id="messageError"></label>
+              <label class="input-error" id="messageError"></label>
             </div>
             <div class="col-12 text-center">
               <button type="submit" class="btn btn-form">Book Now</button>

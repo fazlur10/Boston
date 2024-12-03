@@ -1,0 +1,18 @@
+body {
+	font-family: "Gabarito", sans-serif;
+	height: 200vh;
+}
+
+h1,
+h2,
+h3 {
+	font-family: "Gabarito", sans-serif;
+	font-weight: 700; /* Bold version of the font */
+}
+
+p {
+	font-family: "Gabarito", sans-serif;
+	font-weight: 400; /* Normal weight of the font */
+	color: #0a0b0d;
+}
+
