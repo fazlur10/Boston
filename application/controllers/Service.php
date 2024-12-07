@@ -38,6 +38,7 @@ class Service extends CI_Controller {
         
         // Get the specific sub-service details
         $sub_service = $this->Service_model->get_sub_service($id);
+        $main_service = $this->main_services_model->get_all_main_services();
         
         // Check if the sub-service exists
         if (!$sub_service) {
@@ -46,6 +47,7 @@ class Service extends CI_Controller {
         
         // Pass data to the view
         $data['sub_service'] = $sub_service;
+        $data['main_services'] = $main_service;
         
         // Load the view
         $this->load->view('pages/sub_service_details', $data);
