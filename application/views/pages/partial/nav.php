@@ -15,13 +15,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="<?= base_url(); ?>">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="<?= base_url('about'); ?>">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" href="<?= base_url('services'); ?>">Services</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Doctors</a>

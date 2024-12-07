@@ -1,0 +1,15 @@
+.main-banner {
+	background-color: #a6a6a6; /* Light gray background */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+}
+
+.branding-text {
+	font-size: 42px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    color: #ffffff;
+}

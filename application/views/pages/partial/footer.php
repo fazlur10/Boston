@@ -54,7 +54,7 @@
             <ul class="m-0 list-unstyled">
               <?php foreach ($main_services as $main_service): ?>
                 <li class="mb-1">
-                  <a href="<?= base_url('services/' . $main_service['id']); ?>"
+                  <a href="<?= base_url('services/type/' . $main_service['id']); ?>"
                     class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                     <?= $main_service['service_name']; ?>
                   </a>
