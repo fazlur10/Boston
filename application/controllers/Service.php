@@ -17,6 +17,7 @@ class Service extends CI_Controller {
     public function type($id) {
         // Load the necessary models
         $this->load->model('Service_model');
+        $main_serices = $this->main_services_model->get_all_main_services();
         
         // Get main service details for the banner
         $main_service = $this->Service_model->get_main_service($id);
@@ -27,6 +28,7 @@ class Service extends CI_Controller {
         // Pass data to the view
         $data['main_service'] = $main_service;
         $data['sub_services'] = $sub_services;
+        $data['main_services'] = $main_serices;
         
         // Load the view
         $this->load->view('pages/sub_services', $data);
