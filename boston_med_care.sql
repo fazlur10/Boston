@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 08, 2024 at 10:03 AM
+-- Generation Time: Dec 08, 2024 at 03:28 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -49,7 +49,37 @@ INSERT INTO `appointments` (`id`, `name`, `phone`, `service_type`, `appointment_
 (21, 'fazlur', '77778888', 1, '2024-11-08', '09:00:00', '123', 0, '2024-11-07 08:55:22', '2024-11-07 08:55:22', 'en'),
 (22, 'fazlur rahman fareedu', '77778888', 1, '2024-11-14', '09:00:00', 'test', 0, '2024-11-09 07:30:24', '2024-11-09 07:30:24', 'en'),
 (23, 'fazlur rahman fareedu', '77778888', 1, '2024-11-14', '09:00:00', 'test', 0, '2024-11-09 07:30:29', '2024-11-09 07:30:29', 'en'),
-(24, 'fazlur', '77778888', 1, '2024-12-08', '09:00:00', 'test final', 0, '2024-12-07 10:01:19', '2024-12-07 10:01:19', 'en');
+(24, 'fazlur', '77778888', 1, '2024-12-08', '09:00:00', 'test final', 0, '2024-12-07 10:01:19', '2024-12-07 10:01:19', 'en'),
+(25, 'fazlur', '77811111', 2, '2024-12-17', '09:15:00', 'fgf', 0, '2024-12-08 13:22:11', '2024-12-08 13:22:11', 'en');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `doctors`
+--
+
+CREATE TABLE `doctors` (
+  `id` int(11) NOT NULL,
+  `doctor_name` varchar(255) NOT NULL,
+  `title` varchar(255) NOT NULL,
+  `description` text NOT NULL,
+  `image_path` varchar(255) NOT NULL,
+  `category_id` int(11) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `doctors`
+--
+
+INSERT INTO `doctors` (`id`, `doctor_name`, `title`, `description`, `image_path`, `category_id`, `created_at`, `updated_at`) VALUES
+(1, 'Dr.Fateh Al-Sabaaie', 'Orthodontic Specialist', '<p> Graduate of French universities and hospitals.\r\nMember of the American Association of Orthodontists.\r\nMore than 25 years of experience </p>', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:54:29', '2024-12-08 14:03:46'),
+(2, 'Dr.Farhad Al-Atasi', 'Consultant Gum Doctor', '', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:54:29', '2024-12-08 14:03:46'),
+(3, 'Dr.Ahmad Al-Hamad', 'General Dentist', '', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:57:17', '2024-12-08 14:03:46'),
+(4, 'Dr. Nadia Abdulwahab', 'General Dentist', '', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:57:17', '2024-12-08 14:03:46'),
+(5, 'Dr. Mohammed Al-Mubarak', 'First deputy Dermatology Specialist', '', 'assets/images/doctors/demo-doctor.jpg\r\n', 2, '2024-12-08 14:05:46', '2024-12-08 14:05:46'),
+(6, 'Dr. Ahmed Abdel Razzaq ', 'Dermatology consultant', '', 'assets/images/doctors/demo-doctor.jpg\r\n', 2, '2024-12-08 14:05:46', '2024-12-08 14:05:46');
 
 -- --------------------------------------------------------
 
@@ -161,6 +191,13 @@ ALTER TABLE `appointments`
   ADD KEY `service_type` (`service_type`);
 
 --
+-- Indexes for table `doctors`
+--
+ALTER TABLE `doctors`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `fk_category_id` (`category_id`);
+
+--
 -- Indexes for table `main_services`
 --
 ALTER TABLE `main_services`
@@ -187,7 +224,13 @@ ALTER TABLE `time_slots`
 -- AUTO_INCREMENT for table `appointments`
 --
 ALTER TABLE `appointments`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+
+--
+-- AUTO_INCREMENT for table `doctors`
+--
+ALTER TABLE `doctors`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `main_services`
@@ -216,6 +259,12 @@ ALTER TABLE `time_slots`
 --
 ALTER TABLE `appointments`
   ADD CONSTRAINT `appointments_ibfk_1` FOREIGN KEY (`service_type`) REFERENCES `main_services` (`id`) ON DELETE SET NULL;
+
+--
+-- Constraints for table `doctors`
+--
+ALTER TABLE `doctors`
+  ADD CONSTRAINT `fk_category_id` FOREIGN KEY (`category_id`) REFERENCES `main_services` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `sub_services`
