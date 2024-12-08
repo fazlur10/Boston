@@ -106,7 +106,7 @@
         <div class="row">
           <?php foreach ($main_services as $main_service): ?>
             <div class="col-lg-3 mb-4">
-              <a href="<?= base_url('services/' . $main_service['id']); ?>"
+              <a href="<?= base_url('services/type/' . $main_service['id']); ?>"
                 class="text-decoration-none text-dark d-block text-center">
                 <img src="<?= base_url($main_service['image_path']); ?>" alt="<?= $main_service['service_name']; ?>"
                   class="img-fluid rounded mb-3">
