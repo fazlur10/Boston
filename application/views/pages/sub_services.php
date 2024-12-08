@@ -20,25 +20,23 @@
         <?php $this->load->view('pages/partial/nav'); ?>
         <div class="main-banner text-center">
             <h1 class="heading-text"><?= $main_service['service_name']; ?></h1>
+            <p><?= $main_service['description']; ?></p>
         </div>
         <!-- Sub-services grid -->
-        <div class="container">
-            <div class="row mt-4">
-                <?php foreach ($sub_services as $sub_service): ?>
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 text-center">
-                            <img src="<?= base_url($sub_service['image_path']); ?>" class="card-img-top" alt="Service Image">
-                            <div class="card-body">
-                                <h5 class="card-title"><?= $sub_service['sub_service_name']; ?></h5>
-                                <p class="card-text"><?= substr($sub_service['description'], 0, 50); ?>...</p>
-                                <a href="<?= base_url('service/sub/' . $sub_service['id']); ?>" class="btn btn-dark">View
-                                    More</a>
-                            </div>
-                        </div>
-                    </div>
-                <?php endforeach; ?>
+        <div class="container mt-4">
+    <div class="grid-container">
+        <?php foreach ($sub_services as $sub_service): ?>
+            <div class="grid-item">
+                <img src="<?= base_url($sub_service['image_path']); ?>" alt="Service Image">
+                <div class="card-body">
+                    <h5><?= $sub_service['sub_service_name']; ?></h5>
+                    <p><?= substr($sub_service['description'], 0, 50); ?>...</p>
+                    <a href="<?= base_url('service/sub/' . $sub_service['id']); ?>">View More</a>
+                </div>
             </div>
-        </div>
+        <?php endforeach; ?>
+    </div>
+</div>
         <?php $this->load->view('pages/partial/footer'); ?>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

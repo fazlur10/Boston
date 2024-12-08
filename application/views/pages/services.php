@@ -34,7 +34,7 @@
                     <!-- Content column -->
                     <div class="col-md-6 <?php echo $index % 2 == 1 ? 'order-md-1 text-md-end' : ''; ?>">
                         <h3 class="mt-3"><?= $main_service['service_name']; ?></h3>
-                        <p><?= $main_service['description']; ?></p>
+                        <p><?= substr($main_service['description'],0,53); ?></p>
                         <a href="<?= base_url('services/type/' . $main_service['id']); ?>" class="btn btn-dark">
                             Know More
                         </a>
