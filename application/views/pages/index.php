@@ -94,7 +94,7 @@
               and dental care clinics. Since our establishment, we have strived to provide the highest
               quality and healthcare to our customers, instilling the values of excellence, creativity and
               trust in their minds.</p>
-            <a href="#your-link" class="btn abt-us-btn mt-3">Know More</a>
+            <a href="<?= base_url('about'); ?>" class="btn abt-us-btn mt-3">Know More</a>
           </div>
         </div>
       </div>
@@ -116,7 +116,7 @@
           <?php endforeach; ?>
         </div>
         <div class="text-center">
-          <a href="#your-link" class="btn services-btn mt-3">Know More</a>
+          <a href="<?= base_url('services'); ?>" class="btn services-btn mt-3">Know More</a>
         </div>
       </div>
     </section>

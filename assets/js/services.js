@@ -8,4 +8,10 @@ $(document).ready(function () {
             navbar.classList.remove('scrolled');
         }
     });
+    $('.book-appointment-desktop-btn, .book-appointment-mobile-btn').on('click', function (e) {
+        e.preventDefault();
+        const baseUrl = window.location.origin + window.location.pathname.split('/').slice(0, 2).join('/');
+        window.location.href = baseUrl + '/#appointment-section';
+    });
+    
 });

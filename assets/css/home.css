@@ -236,13 +236,4 @@
 	}
 }
 
-/* Custom styles for desktop */
-@media (min-width: 768px) {
-	.navbar-collapse {
-		justify-content: center;
-	}
 
-	.book-appointment-mobile-btn {
-		display: none;
-	}
-}

@@ -68,32 +68,32 @@
             <h4 class="mb-3 fw-bold fs-7 text-light">Dental</h4>
             <ul class="m-0 list-unstyled">
               <li class="mb-1">
-                <a href="#" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
+                <a href="<?= base_url('service/sub/1'); ?>" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                   Dental Implants
                 </a>
               </li>
               <li class="mb-1">
-                <a href="#" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
+                <a href="<?= base_url('service/sub/2'); ?>" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                   Dental Surgery
                 </a>
               </li>
               <li class="mb-1">
-                <a href="#" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
+                <a href="<?= base_url('service/sub/3'); ?>" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                   Orthodontics and maxillofacial
                 </a>
               </li>
               <li class="mb-1">
-                <a href="#" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
+                <a href="<?= base_url('service/sub/4'); ?>" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                   Endodontics Treatment
                 </a>
               </li>
               <li class="mb-1">
-                <a href="#" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
+                <a href="<?= base_url('service/sub/5'); ?>" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                   Periodontal Treatment
                 </a>
               </li>
               <li class="mb-1">
-                <a href="#" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
+                <a href="<?= base_url('service/sub/10'); ?>" class="link-opacity-75 link-opacity-100-hover text-decoration-none fs-8 link-light mb-0">
                   Teeth cleaning
                 </a>
               </li>
