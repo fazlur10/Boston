@@ -24,7 +24,7 @@
                     <a class="nav-link" href="<?= base_url('services'); ?>">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Doctors</a>
+                    <a class="nav-link" href="<?= base_url('doctors'); ?>">Doctors</a>
                 </li>
                 <!-- "Book Appointment" will appear here in mobile view -->
                 <li class="nav-item">
