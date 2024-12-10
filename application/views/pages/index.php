@@ -194,7 +194,7 @@
           <div class="contact-info">
             <div class="d-flex align-items-center py-2">
               <i class="fas fa-phone-alt me-3 contact-icon"></i>
-              <span>(+971) 1234 5678</span>
+              <span>+966 53413 3328</span>
             </div>
             <div class="d-flex align-items-center py-2">
               <i class="fas fa-envelope me-3 contact-icon"></i>
@@ -202,14 +202,14 @@
             </div>
             <div class="d-flex align-items-center py-2">
               <i class="fas fa-map-marker-alt me-3 contact-icon"></i>
-              <span>Riyad, Saudi Arabia</span>
+              <span>حي, Al Andalus, الملك سعود ابن عبدالعزيز سعود, Al Khobar 34437, Saudi Arabia</span>
             </div>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
           <div class="map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3169.200569408481!2d51.52000821543483!3d25.27698718314795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e465b2f8c4d1%3A0x4c81ae62e9c6713d!2sAl%20Mansoura%2C%20Doha%2C%20Qatar!5e0!3m2!1sen!2sus!4v1692234151740!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14304.381264362877!2d50.1797711!3d26.3234129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e7bc338c52c9%3A0x3e329e0ced3aebbc!2sBoston%20medical%20care!5e0!3m2!1sen!2sqa!4v1733812612735!5m2!1sen!2sqa" referrerpolicy="no-referrer-when-downgrade"
               width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
             </iframe>
           </div>
