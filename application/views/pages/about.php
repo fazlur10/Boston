@@ -19,7 +19,7 @@
     <body>
         <?php $this->load->view('pages/partial/nav'); ?>
         <div class="main-banner text-center">
-            <h1 class="branding-text">Branding text here</h1>
+            <h1 class="branding-text">An Impressive Smile and Radiant Skin in one place.</h1>
             <div class="image-container mx-auto">
                 <img src="<?php echo base_url('assets/images/h1-img-7.jpg'); ?>" alt="Landscape Image"
                     class="img-fluid">
