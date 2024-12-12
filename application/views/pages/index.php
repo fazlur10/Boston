@@ -47,17 +47,31 @@
       <div id="overlay-carousal" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="<?php echo base_url('assets/images/h1-img-8.jpg'); ?>" class="d-block"
+            <img src="<?php echo base_url('assets/images/carousal-overlay-01.jpg'); ?>" class="d-block"
               alt="dentist is checking a petient">
             <div class="carousal-bottom-text d-block">
-              <p>Impressive Smile and Radiant Skin</p>
+              <p>Impressive Radiant Skin</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="<?php echo base_url('assets/images/h1-img-7.jpg'); ?>" class="d-block"
+            <img src="<?php echo base_url('assets/images/carousal-overlay-02.jpg'); ?>" class="d-block"
               alt="woman with a tooth brush">
             <div class="carousal-bottom-text d-block">
-              <p><b style="font-size:18px">Tooth Cleaning</b> Beautiful smile</p>
+              <p>Advanced Skin Treatments</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="<?php echo base_url('assets/images/carousal-overlay-03.jpg'); ?>" class="d-block"
+              alt="woman with a tooth brush">
+            <div class="carousal-bottom-text d-block">
+              <p>Confident Braces Journey</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="<?php echo base_url('assets/images/carousal-overlay-04.jpg'); ?>" class="d-block"
+              alt="woman with a tooth brush">
+            <div class="carousal-bottom-text d-block">
+              <p>Healthy, Impressive Smile</p>
             </div>
           </div>
           <button class="overlay-carousel-control-prev" type="button" data-bs-target="#overlay-carousal"
@@ -180,7 +194,7 @@
     <section class="parallax-section">
       <div class="overlay-text">
         <h1 class="display-4">Boston Med Care</h1>
-        <p class="lead">A honorable past, a creative present, a bright future.</p>
+        <p class="lead2">A honorable past, a creative present, a bright future.</p>
       </div>
     </section>
 
@@ -189,8 +203,7 @@
         <div class="col-lg-6 col-md-12">
           <h4>Get Appointment</h4>
           <h5 class="display-4">Contact Us Now</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua.</p>
+          <p>Experience expert dental, dermatology, plastic surgery, and hair treatment services tailored to your needs.</p>
           <div class="contact-info">
             <div class="d-flex align-items-center py-2">
               <i class="fas fa-phone-alt me-3 contact-icon"></i>
@@ -202,7 +215,7 @@
             </div>
             <div class="d-flex align-items-center py-2">
               <i class="fas fa-map-marker-alt me-3 contact-icon"></i>
-              <span>حي, Al Andalus, الملك سعود ابن عبدالعزيز سعود, Al Khobar 34437, Saudi Arabia</span>
+              <span> Al Khobar, Andalusia, King Saud AbdulAziz Road, Saudi Arabia</span>
             </div>
           </div>
         </div>

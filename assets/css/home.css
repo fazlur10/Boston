@@ -4,6 +4,7 @@
 	background-image: url(../images/carousal-bg.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	background-position: center;
 	height: 100vh;
 	min-height: 800px;
 }
@@ -169,6 +170,10 @@
     background: #fff;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
 	margin-right: 10px;
+}
+
+.lead2{
+	color: #ffffff;
 }
 
 /* Custom styles for less than 1400px screen */
