@@ -21,7 +21,7 @@
         <div class="main-banner text-center">
             <h1 class="branding-text">An Impressive Smile and Radiant Skin in one place.</h1>
             <div class="image-container mx-auto">
-                <img src="<?php echo base_url('assets/images/h1-img-7.jpg'); ?>" alt="Landscape Image"
+                <img src="<?php echo base_url('assets/images/about-banner.jpg'); ?>" alt="Landscape Image"
                     class="img-fluid">
             </div>
         </div>
@@ -32,33 +32,35 @@
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="service-item">
                             <div class="icon mb-3">
-                                <img src="<?php echo base_url('assets/images/placeholder.jpg'); ?>"
+                                <img src="<?php echo base_url('assets/images/about-dental-thumb.jpg'); ?>"
                                     alt="Daily Prevention Icon" class="img-fluid">
                             </div>
-                            <h5 class="service-title">Daily Prevention</h5>
-                            <p class="service-description">Lorem ipsum dolor sit aiet wisi enim adit minim veniam</p>
+                            <h5 class="service-title">Dental </h5>
+                            <p class="service-description">Comprehensive dental care for a healthy, confident smile</p>
                         </div>
                     </div>
                     <!-- Card 2 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="service-item">
                             <div class="icon mb-3">
-                                <img src="<?php echo base_url('assets/images/placeholder.jpg'); ?>"
+                                <img src="<?php echo base_url('assets/images/about-derma-thumb.jpg'); ?>"
                                     alt="Teeth Whitening Icon" class="img-fluid">
                             </div>
-                            <h5 class="service-title">Teeth Whitening</h5>
-                            <p class="service-description">Lorem ipsum dolor sit aiet wisi enim adit minim veniam</p>
+                            <h5 class="service-title">Derma Treatments</h5>
+                            <p class="service-description">Advanced dermatology treatments for glowing, youthful skin
+                            </p>
                         </div>
                     </div>
                     <!-- Card 3 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="service-item">
                             <div class="icon mb-3">
-                                <img src="<?php echo base_url('assets/images/placeholder.jpg'); ?>"
+                                <img src="<?php echo base_url('assets/images/about-laser-thumb.jpg'); ?>"
                                     alt="Teeth Braces Icon" class="img-fluid">
                             </div>
-                            <h5 class="service-title">Teeth Braces</h5>
-                            <p class="service-description">Lorem ipsum dolor sit aiet wisi enim adit minim veniam</p>
+                            <h5 class="service-title">Laser Treatments</h5>
+                            <p class="service-description">State-of-the-art laser solutions for skin rejuvenation and
+                                hair removal</p>
                         </div>
                     </div>
                 </div>
@@ -78,13 +80,17 @@
                         <h6 class="text-uppercase text-primary">About Us</h6>
                         <h2 class="mb-4">Global Clinic</h2>
                         <p class="mb-4 text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Ut wisi enim ad minim veniam, qui
-                            laore nostrud ctetur adipiscing elit, sed do eiusmod exerci tation wisi enim met cins.
+                            Our journey in the Middle East began in 2012, when we established our specialized skin
+                            and dental care clinics. Since our establishment, we have strived to provide the highest
+                            quality and healthcare to our customers, instilling the values of excellence, creativity and
+                            trust in their minds.
                         </p>
                         <h2 class="mb-4">Our expansion</h2>
                         <p class="mb-4 text-muted">
-                            Lorem ipsum dolor sit amet, consectetur adip iscing elit. Ut wisi enim ad minim veniam, qui
-                            laore nostrud ctetur adipiscing elit, sed do eiusmod exerci tation wisi enim met cins.
+                            Due to our commitment to quality and innovation, our clinics have experienced global
+                            expansion, allowing us to offer our exceptional services to a larger number of clients.
+                            We take pride in being a trusted destination for anyone seeking skincare, dental care, and
+                            beauty
                         </p>
                     </div>
                 </div>
@@ -95,14 +101,13 @@
             <div class="container">
                 <h2>Our Team</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adip iscing elit. Ut wisi enim ad minim veniam, qui
-                    laore nostrud ctetur adipiscing elit, sed do eiusmod exerci tation wisi enim met cins.
-                    Lorem ipsum dolor sit amet, consectetur adip iscing elit. Ut wisi enim ad minim veniam, qui
-                    laore nostrud ctetur adipiscing elit, sed do eiusmod exerci tation wisi enim met cins.
+                    A creative team of professionals and specialists in dentistry and derma, always striving to
+                    keep up with the latest technologies to achieve the best results for all your needs in
+                    dentistry, derma, and beauty
                 </p>
             </div>
             <div class="our-team-image-container container">
-                <img src="<?php echo base_url('assets/images/team.jpg'); ?>" alt="our team" class="img-fluid ">
+                <img src="<?php echo base_url('assets/images/team01.jpg'); ?>" alt="our team" class="img-fluid ">
             </div>
         </section>
 
@@ -111,43 +116,43 @@
                 <div class="row">
                     <!-- Image 1 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 1"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-01.jpg'); ?>"
+                            alt="Image 1" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 2 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 2"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-02.jpg'); ?>"
+                            alt="Image 2" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 3 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 3"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-03.jpg'); ?>"
+                            alt="Image 3" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 4 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 4"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-04.jpg'); ?>"
+                            alt="Image 4" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 5 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 5"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-05.jpg'); ?>"
+                            alt="Image 5" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 6 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 6"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-06.jpg'); ?>"
+                            alt="Image 6" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 7 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 7"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-07.jpg'); ?>"
+                            alt="Image 7" class="img-fluid rounded shadow">
                     </div>
                     <!-- Image 8 -->
                     <div class="col-lg-3 col-md-4 col-6 mb-4">
-                        <img src="<?php echo base_url('assets/images/service-gallary.jpg'); ?>" alt="Image 8"
-                            class="img-fluid rounded shadow">
+                        <img src="<?php echo base_url('assets/images/service-gallery/service-gallery-08.jpg'); ?>"
+                            alt="Image 8" class="img-fluid rounded shadow">
                     </div>
                 </div>
             </div>
