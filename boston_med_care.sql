@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 17, 2024 at 09:10 AM
+-- Generation Time: Dec 17, 2024 at 10:07 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -77,7 +77,7 @@ INSERT INTO `doctors` (`id`, `doctor_name`, `title`, `description`, `image_path`
 (1, 'Dr.Fateh Al-Sabaaie', 'Orthodontic Specialist', '<p> Graduate of French universities and hospitals.\r\nMember of the American Association of Orthodontists.\r\nMore than 25 years of experience </p>', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:54:29', '2024-12-08 14:03:46'),
 (2, 'Dr.Farhad Al-Atasi', 'Consultant Gum Doctor', '', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:54:29', '2024-12-08 14:03:46'),
 (3, 'Dr.Ahmad Al-Hamad', 'General Dentist', '', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:57:17', '2024-12-08 14:03:46'),
-(4, 'Dr. Nadia Abdulwahab', 'General Dentist', '', 'assets/images/doctors/demo-doctor.jpg', 1, '2024-12-08 13:57:17', '2024-12-08 14:03:46'),
+(4, 'Dr. Nadia Abdulwahab', 'General Dentist', '', 'assets/images/doctors/demo-doctor-f.jpg', 1, '2024-12-08 13:57:17', '2024-12-17 09:07:39'),
 (5, 'Dr. Mohammed Al-Mubarak', 'First deputy Dermatology Specialist', '', 'assets/images/doctors/demo-doctor.jpg\r\n', 2, '2024-12-08 14:05:46', '2024-12-08 14:05:46'),
 (6, 'Dr. Ahmed Abdel Razzaq ', 'Dermatology consultant', '', 'assets/images/doctors/demo-doctor.jpg\r\n', 2, '2024-12-08 14:05:46', '2024-12-08 14:05:46');
 
